@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Click and Chill</string>
+
+    <string name="sign_up">Sign Up</string>
+    <string name="quest_in">Continue as a guest</string>
+    <string name="sign_in">Sign In</string>
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/documentList">
+
+    <fragment
+        android:id="@+id/documentList"
+        android:name="com.bignerdranch.android.diplomaproject.DocumentList"
+        android:label="fragment_document_list"
+        tools:layout="@layout/fragment_document_list" >
+        <action
+            android:id="@+id/take_photo_camera"
+            app:destination="@id/createDocument" />
+    </fragment>
+    <fragment
+        android:id="@+id/createDocument"
+        android:name="com.bignerdranch.android.diplomaproject.CreateDocument"
+        android:label="CreateDocument" >
+        <argument
+            android:name="photo"
+            app:argType="string" />
+    </fragment>
+</navigation>
